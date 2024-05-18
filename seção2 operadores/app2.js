@@ -16,10 +16,10 @@
 > maior que
 <= mrnor igual que
 >= maior igual que
-== igual a
+== são parecidos 
 === exatamente igual
-!= diferente
-!== tipos difrente
+!= valor diferente
+!== valo e tipos difrente
 */
 
 /// operadores logicos ///

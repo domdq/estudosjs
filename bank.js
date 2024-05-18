@@ -28,3 +28,24 @@ if (idade >= 18 && idade <= 25) {
 } else {
   taxaDeJuros = 0.07;
 }
+
+/***** Laços loops no sistema banco*****/
+// FOR //
+for (let cont = 0; cont < 3; cont++) {
+  valorEmprestimo = parseInt(prompt("Valor do Emprestimo"));
+  numAnos = parseInt(prompt("Anos"));
+  let juros = valorEmprestimo * taxaDeJuros * numAnos;
+  let montante = valorEmprestimo + juros;
+  console.log("valor do emprestimo: " + montante);
+  console.log(montante);
+}
+
+// while //
+valorEmprestimo = 1;
+while (valorEmprestimo != 0) {
+  valorEmprestimo = parseInt(prompt("valor de emprestimo"));
+  numAnos = parseInt(prompt("valor de anos"));
+  juros = valorEmprestimo * taxaDeJuros * numAnos;
+  montante = valorEmprestimo + juros;
+  console.log(montante);
+}
