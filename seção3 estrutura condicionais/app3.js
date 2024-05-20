@@ -25,11 +25,11 @@ if (condição1) {
 }
 /*Exemplo de if, else, else if*/
 let idades = 22;
-let juros = 5.5;
-if (idades >= 20 && idade <= 25) {
-  Juros = 5.5;
+let juro = 5.5;
+if (idades >= 20 && idades <= 25) {
+  Juro = 5.5;
 } else if (idades >= 25 && idades <= 30) {
-  juros = 5.0;
+  juro = 5.0;
 } else {
   taxaDeJuros = 0.0;
 }
