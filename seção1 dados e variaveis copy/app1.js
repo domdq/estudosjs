@@ -21,3 +21,24 @@ let validade = true;
 console.log(Nome);
 console.log(preço);
 console.log(validade);
+
+/***** metodos de strings *****/
+// comprimento
+let MeuNome = "dom";
+MeuNome.length; // 3
+
+/*acessando caracteres*/
+MeuNome[3]; // d
+
+/*erificando substring*/
+let emailValido = "dom@email.com";
+emailValido.includes("@"); // retonara true por que existe o @
+
+let emailInvalido = "dom.email.com";
+emailInvalido.includes("@"); // retonara false por que não tem o @
+
+/* mudando para maiuscula e minuscula */
+let meuNome2 = "Dominick";
+meuNome2.toLowerCase; // retonara tudo minuscula "dominick"
+
+meuNome2.toUpperCase; // retonara tudo maiscula "DOMINICK"
